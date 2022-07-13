@@ -26,3 +26,6 @@ System.out.println(LocalDateTime.parse("1985-12-11 12:10:33", DateTimeFormatter.
 System.out.println(original.get(0).toString());
     }
 }
+//  "^\\d{4}" regra é começa com 4 digitos
+// ".*\\d{4}$" regra é acaba com 4 digitos
+//
