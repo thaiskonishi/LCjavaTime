@@ -20,13 +20,11 @@ public class App {
         original.add(Map.of("nome", "Pedro", "nascimento", "08:03:07 1989-11-02"));
 
         List<Map<String, String>> listaFormatada = new ArrayList<>();
+       
+        
+        System.out.println("XXXXXXXXXXXXXXXXXXXXXX TESTES XXXXXXXXXXXXXXXXXX");
 
-        for (Map<String, String> i : original) {
-
-        }
-
-        System.out.println(
-                LocalDateTime.parse("1985-12-11 12:10:33", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+        LocalDateTime.parse("1985-12-11 12:10:33", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 
         DateTimeFormatter padrao = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 
@@ -34,6 +32,8 @@ public class App {
                 LocalDateTime.parse("1985-12-11 12:10:33", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))));
 
         System.out.println("acessando a lista original " + original.get(0).toString());
+
+
     }
 }
 // "^\\d{4}" regra é começa com 4 digitos
