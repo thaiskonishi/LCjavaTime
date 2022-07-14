@@ -1,3 +1,5 @@
+package teste;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -33,5 +35,6 @@ public class Teste {
 
     System.out.println("meu padrao: " + padrao.format(
         LocalDateTime.parse("1985-12-11 12:10:33", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))));
+
   }
 }
